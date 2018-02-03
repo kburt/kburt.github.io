@@ -1,0 +1,185 @@
+/* set repeat background image */
+.middle {
+	background-image: url('../images/memphis-colorful.png');
+	background-repeat: repeat;
+	background-size: auto;
+}
+
+
+/* set width of wrapper, all divs */
+.wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+/* top bar */
+.top {
+	/*width: 960px;*/
+	height: 80px;
+	background-color: #ffffff;
+}
+
+/* style my name at the top left */
+.kellieBurt {
+	width: 20%;
+	height: 80px;
+	background-color: #4aaaa5;
+	text-align: center;
+	padding-top: 5px;
+	float: left;
+	margin-left: 18%;
+}
+
+.kellieBurt h1 {
+	color: white;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+/* style the navigation links */
+.nav {
+	width: 25%;
+	margin-right: 8%;
+	padding-top: 14px;
+	float: right;
+}
+
+a:link {
+	text-decoration: none;
+	font-size: 14px;
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/* middle bar */
+.middle {
+	/*width: 960px;*/
+	height: 700px;
+	border-top: 1px solid #dddddd;
+	background-color: lightgray;
+	clear: both;
+	border-bottom: 8px solid #4aaaa5;
+}
+
+/* style the About Me box */
+.aboutMe {
+	width: 600px;
+	background-color: #ffffff;
+	padding: 25px;
+	margin-right: 20px;
+	margin-top: 15px;
+	float: left;
+
+}
+
+.aboutMe h1 {
+	color: #4aaaa5;
+	padding-top: 10px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.aboutMe img {
+	float: left;
+}
+
+.aboutMe p {
+	font-size: 14px;
+	color: #777777;
+	line-height: 26px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/* style the Contact page*/
+form {
+	font-size: 14px;
+	color: #777777;
+	line-height: 26px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+input::placeholder {
+	font-size: 14px;
+	color: #777777;
+	line-height: 26px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.inputText {
+	width: 400px;
+}
+
+#messageBox {
+	height: 100px;
+}
+
+#submitButton {
+	width: 80px;
+	height: 30px;
+	font-size: 14px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/* style the Connect with Me box */
+.aside {
+	width: 230px;
+	padding: 20px;
+	background-color: #ffffff;
+	margin-top: 15px;
+	margin-right: 5px;
+	float: left;
+	text-align: center;
+}
+
+.aside h3 {
+	color: #4aaaa5;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+.connectIcon {
+	width: 42px;
+	height: 42px;
+}
+
+/* style the table with placeholder images */
+table {
+	width: 500px;
+	padding: 8px;
+}
+
+td, th, tr {
+	padding: 14px;
+	position: relative;
+}
+
+table div {
+	width: 189px;
+	height: 38px;
+	background-color: #4aaaa5;
+	position: absolute;
+	bottom: 28px;
+  	left: 15px;
+  	right: 0;
+
+}
+
+.picCaption p {
+	color: #ffffff;
+	font-size: 16px;
+	margin: 0;
+	padding-top: 5px;
+	font-weight: lighter;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+
+/* footer */
+.footer {
+	margin: 0px;
+	height: 50px;
+	background-color: #666666;
+	text-align: center;
+	color: #ffffff;
+	padding-top: 20px;
+	font-size: 12px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}

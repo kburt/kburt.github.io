@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="assets/css/style.css"/>
 </head>
 <body>
+
 <div class="top">
 	<section class="kellieBurt">
 		<h1>Kellie Burt</h1>
@@ -17,13 +18,26 @@
 </div>
 <div class="middle">
 	<div class="wrapper"> 
-
 	<section class="aboutMe">
-		<h1>About Me</h1>
+		<h1>Contact</h1>
 		<hr>
-		<img src="assets/images/homeronelove.gif" alt="This is a photo of Kellie">
-		<p>Here is a short bio about myself. I am originally from Atlanta, Georgia and have been living in Austin, Texas for almost four years. My whole family still lives in Atlanta. I moved here because I was bored and wanted to try something new. I have been working at eBay for a little over two years on a global operations team. I got to travel to Shanghai, China last year to meet my boss and fellow teammates. It was really fun!<br>
-		When I am not working I like to go out with friends and be kinda crazy, or find something nice to do outside, or try new restaurants around the city. Sometimes I like to go dancing. I prefer to use a picture of Homer Simpson as my profile picture because he is more photogenic.</p>
+		<form action="#">
+		  Name
+		  <br>
+		  <input type="text" name="firstname" placeholder="John Smith" class="inputText">
+		  <br><br>
+		  Email
+		  <br>
+		  <input type="text" name="email" placeholder="example@gmail.com" class="inputText">
+		  <br><br>
+		  Message
+		  <br>
+		  <input type="text" name="message" value="" class="inputText" id="messageBox">
+		  <br><br>
+		  <input type="submit" value="Submit" id="submitButton">
+		</form> 
+
+
 	</section>
 	
 	<section class="aside">
@@ -34,13 +48,14 @@
 		<a href="http://www.linkedin.com/in/kellieburt/"><img src="assets/images/linkedinicon.png" alt="My LinkedIn" class="connectIcon"></a>
 		<a href="http://stackoverflow.com/users/8984673/kellie-burt"><img src="assets/images/overflowicon.png" alt="My Stack Overflow" class="connectIcon"></a>
 	</section>
-	</div>
 
+	</div>
 </div>
 
 <footer>
 	<p class="footer">&#169; Copyright 2018 Kellie Burt</p>
 </footer>
+
     
 </body>
 </html>
